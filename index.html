@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unnati Jagtap | Administration & Operations</title>
+<meta name="description" content="Unnati Jagtap — Administration & Operations professional with 5+ years of experience across education operations, student engagement, MIS, parent communication, recruitment and team coordination.">
+<style>
+:root{
+  --ink:#172033;--muted:#667085;--line:#e8eaf0;--paper:#fff;--soft:#f6f8fc;
+  --navy:#15243d;--blue:#3568b0;--sky:#6da8e8;--lav:#8067c7;--mint:#3aa889;
+  --gold:#e4a93a;--pink:#d96d93;--radius:24px;
+  --shadow:0 20px 60px rgba(21,36,61,.10);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--soft);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+a{color:inherit;text-decoration:none}
+.container{width:min(1140px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.90);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav-inner{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:850;letter-spacing:-.05em;font-size:1.18rem}.logo span{color:var(--blue)}
+.nav-links{display:flex;gap:24px;color:#586174;font-size:.9rem;font-weight:650}.nav-links a{transition:.2s}.nav-links a:hover,.nav-links a.active{color:var(--blue)}
+.hero{position:relative;overflow:hidden;padding:86px 0 76px;background:linear-gradient(135deg,#fff 0%,#f7f9ff 60%,#eef6ff 100%)}
+.blob{position:absolute;border-radius:50%;filter:blur(2px);opacity:.55;pointer-events:none}
+.b1{width:280px;height:280px;background:#dbeaff;right:-80px;top:-70px}.b2{width:180px;height:180px;background:#eee2ff;left:-70px;bottom:-60px}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.35fr .65fr;gap:60px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--blue);font-weight:800;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 5px #dff5ee}
+h1{font-size:clamp(3.3rem,7vw,6.4rem);line-height:.92;letter-spacing:-.075em;margin:20px 0 25px;max-width:800px}
+.gradient-text{background:linear-gradient(90deg,var(--blue),var(--lav));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{font-size:1.12rem;color:var(--muted);max-width:700px;margin:0 0 28px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:12px 18px;border-radius:13px;font-weight:750;border:1px solid var(--line);background:#fff;transition:.2s}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(21,36,61,.10)}.btn.primary{background:var(--navy);color:#fff;border-color:var(--navy)}
+.hero-card{background:linear-gradient(145deg,#15243d,#243d64);color:#fff;border-radius:30px;padding:29px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.hero-card:after{content:"";position:absolute;width:150px;height:150px;border-radius:50%;background:#6da8e8;opacity:.12;right:-50px;bottom:-55px}
+.hero-card .label{color:#b9c8dc;font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;font-weight:750}.hero-card .big{font-size:4.6rem;font-weight:900;line-height:1;letter-spacing:-.07em;margin-top:8px}
+.hero-card p{color:#c9d2df;font-size:.92rem;margin:8px 0 23px}.stat{padding:14px 0;border-top:1px solid rgba(255,255,255,.13);display:flex;justify-content:space-between;gap:20px}.stat strong{font-size:1rem}.stat span{color:#aebbd0;font-size:.84rem;text-align:right}
+section{padding:88px 0}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:36px}.kicker{color:var(--blue);font-size:.76rem;text-transform:uppercase;letter-spacing:.13em;font-weight:850}.section-head h2{font-size:clamp(2rem,4vw,3.35rem);letter-spacing:-.06em;line-height:1.03;margin:7px 0 0}.section-head p{color:var(--muted);max-width:510px;margin:0}
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:20px}.panel{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:31px;box-shadow:0 8px 30px rgba(21,36,61,.04)}.panel h3{margin:0 0 12px;font-size:1.18rem}.panel p{color:var(--muted);margin:0}
+.value-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:20px}.value-card{padding:21px;border-radius:18px;border:1px solid var(--line);background:linear-gradient(145deg,#fff,#f9fbff);transition:.25s}.value-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.value-icon{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;font-weight:900;color:#fff;margin-bottom:12px}.v1{background:var(--blue)}.v2{background:var(--mint)}.v3{background:var(--lav)}.v4{background:var(--gold)}.value-card strong{display:block;margin-bottom:4px}.value-card span{font-size:.9rem;color:var(--muted)}
+#skills{background:#fff}.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.skill{position:relative;overflow:hidden;background:#fff;border:1px solid var(--line);padding:21px;border-radius:18px;font-weight:800;transition:.25s}.skill:before{content:"";position:absolute;left:0;top:0;width:5px;height:100%;background:var(--accent,var(--blue))}.skill:hover{transform:translateY(-4px);box-shadow:0 15px 35px rgba(21,36,61,.08)}.skill small{display:block;color:var(--muted);font-weight:500;margin-top:5px}
+.skill:nth-child(2){--accent:var(--mint)}.skill:nth-child(3){--accent:var(--lav)}.skill:nth-child(4){--accent:var(--gold)}.skill:nth-child(5){--accent:var(--pink)}.skill:nth-child(6){--accent:var(--sky)}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-bottom:45px}.kpi{background:var(--navy);color:#fff;border-radius:22px;padding:24px;min-height:165px;position:relative;overflow:hidden}.kpi:nth-child(2){background:#245b8f}.kpi:nth-child(3){background:#59609b}.kpi:nth-child(4){background:#327d70}.kpi-number{font-size:3.25rem;line-height:1;font-weight:900;letter-spacing:-.07em}.kpi-label{font-weight:800;margin-top:10px}.kpi-note{color:#cbd4e1;font-size:.82rem;margin-top:5px;line-height:1.45}
+.timeline{position:relative;margin-top:15px}.timeline:before{content:"";position:absolute;left:10px;top:5px;bottom:5px;width:1px;background:#d7dce7}.job{position:relative;padding:0 0 40px 42px}.job:before{content:"";position:absolute;left:4px;top:7px;width:13px;height:13px;border-radius:50%;background:var(--blue);box-shadow:0 0 0 5px #e8f0fb}.job:last-child{padding-bottom:0}.job-top{display:flex;justify-content:space-between;gap:20px;align-items:start}.job h3{margin:0;font-size:1.18rem}.company{color:var(--blue);font-weight:750;margin-top:3px}.date{white-space:nowrap;color:var(--muted);font-size:.87rem}.job ul{margin:14px 0 0;padding-left:18px;color:#596273}.job li{margin:7px 0}
+.awards{display:grid;grid-template-columns:1fr 1fr;gap:18px}.award{background:#fff;border:1px solid var(--line);border-radius:22px;padding:27px;display:flex;gap:18px;align-items:flex-start;transition:.25s}.award:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.award-icon{width:50px;height:50px;border-radius:15px;background:#fff2d5;color:#9b6b12;display:grid;place-items:center;font-size:1.4rem;flex:none}.award h3{margin:0 0 4px}.award p{margin:0;color:var(--muted);font-size:.9rem}
+.education{display:grid;grid-template-columns:1fr 1fr;gap:18px}.edu{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px}.edu strong{display:block;font-size:1.05rem}.edu span{color:var(--muted);font-size:.9rem}
+footer{background:var(--navy);color:#fff;padding:65px 0}.footer-grid{display:flex;justify-content:space-between;gap:30px;align-items:end}footer p{color:#b5c0d0;margin:7px 0 0}.contact{display:flex;gap:10px;flex-wrap:wrap}.contact a{border:1px solid rgba(255,255,255,.18);padding:10px 14px;border-radius:11px;transition:.2s}.contact a:hover{background:rgba(255,255,255,.08)}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}.reveal.show{opacity:1;transform:none}
+@media(max-width:850px){.nav-links{display:none}.hero-grid,.about-grid{grid-template-columns:1fr}.skills{grid-template-columns:1fr 1fr}.kpi-grid{grid-template-columns:1fr 1fr}.section-head{display:block}.section-head p{margin-top:14px}.footer-grid{display:block}.contact{margin-top:22px}}
+@media(max-width:560px){section{padding:65px 0}.hero{padding:65px 0}.skills,.value-grid,.awards,.education{grid-template-columns:1fr}.kpi-grid{grid-template-columns:1fr 1fr}.kpi{min-height:145px}.kpi-number{font-size:2.5rem}h1{font-size:3.45rem}.job-top{display:block}.date{display:block;margin-top:5px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="container nav-inner">
+    <a class="logo" href="#top">UNNATI<span>.</span></a>
+    <div class="nav-links">
+      <a href="#about">Profile</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#awards">Awards</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+<section class="hero">
+  <div class="blob b1"></div><div class="blob b2"></div>
+  <div class="container hero-grid">
+    <div class="reveal">
+      <div class="eyebrow"><span class="dot"></span> Administration · Operations · Education</div>
+      <h1>Unnati<br><span class="gradient-text">Jagtap</span></h1>
+      <p>Team Lead – Administration & Operations with 5+ years of experience helping educational teams run smoothly, supporting students and families, strengthening processes, and coordinating people toward better outcomes.</p>
+      <div class="actions"><a class="btn primary" href="#experience">Explore Experience</a><a class="btn" href="mailto:unnatijagtap21@gmail.com">Email Unnati</a></div>
+    </div>
+    <aside class="hero-card reveal">
+      <div class="label">At a glance</div>
+      <div class="big">5+</div><p>years of professional experience</p>
+      <div class="stat"><strong>500+</strong><span>students counselled & mentored</span></div>
+      <div class="stat"><strong>35%</strong><span>above assigned performance target</span></div>
+      <div class="stat"><strong>30%</strong><span>faster time-to-hire through workflow improvement</span></div>
+      <div class="stat"><strong>5</strong><span>team members led</span></div>
+    </aside>
+  </div>
+</section>
+
+<section id="about">
+<div class="container">
+  <div class="section-head reveal"><div><div class="kicker">Profile</div><h2>What I bring to an institution</h2></div><p>A calm, dependable and people-centred approach to administration — with an emphasis on student wellbeing, parent trust, smooth coordination and accountable execution.</p></div>
+  <div class="about-grid">
+    <div class="panel reveal">
+      <h3>Professional Summary</h3>
+      <p>Operations Team Lead with 5+ years of expertise in managing IT training operations, improving processes, and bridging talent with industry opportunities.</p>
+    </div>
+    <div class="panel reveal">
+      <h3>Value to the institution</h3>
+      <div class="value-grid">
+        <div class="value-card"><div class="value-icon v1">01</div><strong>Students feel supported</strong><span>Thoughtful counselling, mentoring and progress follow-up help students stay engaged and on track.</span></div>
+        <div class="value-card"><div class="value-icon v2">02</div><strong>Parents feel heard</strong><span>Regular, respectful communication builds confidence and helps concerns reach the right people early.</span></div>
+        <div class="value-card"><div class="value-icon v3">03</div><strong>Teams work together</strong><span>Faculty and internal teams are coordinated around student needs and day-to-day institutional requirements.</span></div>
+        <div class="value-card"><div class="value-icon v4">04</div><strong>Operations stay organised</strong><span>Records, attendance, activities and workflows are followed through with structure and attention to detail.</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="skills">
+<div class="container">
+  <div class="section-head reveal"><div><div class="kicker">Capabilities</div><h2>Functional skills</h2></div><p>Practical skills that connect administration, student support, reporting and operational execution.</p></div>
+  <div class="skills">
+    <div class="skill reveal">Data Analytics & MIS Reporting<small>Turning operational information into useful reports</small></div>
+    <div class="skill reveal">Student Records Management<small>Progress, attendance and academic information</small></div>
+    <div class="skill reveal">Artificial Intelligence<small>Technology awareness for modern education operations</small></div>
+    <div class="skill reveal">Process Optimization<small>Improving workflows, efficiency and turnaround time</small></div>
+    <div class="skill reveal">Recruitment & Talent Management<small>Hiring coordination and stakeholder engagement</small></div>
+    <div class="skill reveal">Performance Tracking & Analysis<small>Monitoring outcomes, metrics and progress</small></div>
+  </div>
+</div>
+</section>
+
+<section id="experience">
+<div class="container">
+  <div class="section-head reveal"><div><div class="kicker">Impact</div><h2>Results that tell the story</h2></div><p>Clear outcomes make the scale and value of her work easier to understand at a glance.</p></div>
+  <div class="kpi-grid">
+    <div class="kpi reveal"><div class="kpi-number" data-target="500">0+</div><div class="kpi-label">Students supported</div><div class="kpi-note">Counselled and mentored across academic, behavioural and individual concerns.</div></div>
+    <div class="kpi reveal"><div class="kpi-number" data-target="35">0%</div><div class="kpi-label">Above assigned target</div><div class="kpi-note">Performance delivered above the assigned monetary target at NxtWave.</div></div>
+    <div class="kpi reveal"><div class="kpi-number" data-target="30">0%</div><div class="kpi-label">Faster hiring workflow</div><div class="kpi-note">Time-to-hire reduced through streamlined operational workflows.</div></div>
+    <div class="kpi reveal"><div class="kpi-number" data-target="5">0</div><div class="kpi-label">Team members led</div><div class="kpi-note">Current team leadership across training, recruitment and placement operations.</div></div>
+  </div>
+
+  <div class="timeline">
+    <article class="job reveal"><div class="job-top"><div><h3>Team Lead – Administration & Recruitment</h3><div class="company">ITVedant Education Pvt. Ltd., Nagpur</div></div><div class="date">Jan 2025 – Present</div></div>
+      <ul><li>Counselled and mentored 500+ students, addressing academic, behavioural, and individual concerns and helping them stay on track.</li><li>Maintained regular student progress updates, attendance data, and academic performance information to monitor student development.</li><li>Communicated regularly with parents regarding student progress, concerns, attendance, performance, and other relevant matters.</li><li>Ensured adherence to established student safety protocols and supported a safe, disciplined, and positive learning environment.</li><li>Coordinated with faculty and internal teams to address student concerns and ensure smooth administrative operations.</li><li>Handled student and parent concerns professionally, resolving issues promptly and escalating matters when required.</li><li>Supervised the planning and coordination of batches, tests, academic activities, and other institutional requirements.</li></ul>
+    </article>
+    <article class="job reveal"><div class="job-top"><div><h3>Senior Recruiter</h3><div class="company">NxtWave · Remote</div></div><div class="date">Aug 2024 – Jan 2025</div></div>
+      <ul><li>Delivered 35% higher monetary performance than assigned targets through process optimization and execution excellence.</li><li>Streamlined operational workflows, reducing time-to-hire by 30% and improving overall efficiency.</li><li>Guided junior recruiters and hiring partners to align training programs with evolving industry requirements.</li><li>Built strong business partnerships by delivering exceptional results.</li></ul>
+    </article>
+    <article class="job reveal"><div class="job-top"><div><h3>Operations Executive</h3><div class="company">Triumphant Institute of Management Education (TIME), Nagpur</div></div><div class="date">Dec 2022 – Jul 2024</div></div>
+      <ul><li>Streamlined workflows to improve efficiency and reduce turnaround time.</li><li>Coordinated with cross-functional teams for smooth hiring operations.</li><li>Oversaw interview scheduling and end-to-end coordination.</li><li>Improved process efficiency and candidate conversion rates.</li><li>Maintained hiring reports and performance metrics.</li></ul>
+    </article>
+    <article class="job reveal"><div class="job-top"><div><h3>Operations Executive</h3><div class="company">Livewire LiveTechSkills, Nagpur</div></div><div class="date">Dec 2021 – Dec 2022</div></div>
+      <ul><li>Supervised recruitment and candidate engagement activities.</li><li>Sourced and screened candidates for various roles.</li><li>Coordinated interviews and maintained hiring pipeline.</li><li>Negotiated compensation by aligning candidate expectations with internal salary structures and long-term career opportunities.</li></ul>
+    </article>
+    <article class="job reveal"><div class="job-top"><div><h3>Associate</h3><div class="company">Target Academy of Science, Nagpur</div></div><div class="date">Jun 2021 – Dec 2021</div></div>
+      <ul><li>Managed day-to-day operations of the coaching institute.</li><li>Handled student enrollment and maintained academic records.</li><li>Supported faculty with administrative and operational needs.</li><li>Monitored attendance and tracked student performance.</li><li>Assisted in organizing tests, batches, and academic activities.</li><li>Managed parent communication and resolved queries efficiently.</li></ul>
+    </article>
+  </div>
+</div>
+</section>
+
+<section id="awards" style="background:#fff">
+<div class="container">
+  <div class="section-head reveal"><div><div class="kicker">Recognition</div><h2>Awards & recognition</h2></div><p>Recognition for performance, ownership and strong stakeholder handling.</p></div>
+  <div class="awards">
+    <div class="award reveal"><div class="award-icon">★</div><div><h3>Employee of the Quarter</h3><p>Recognised for strong performance and contribution to the organisation.</p></div></div>
+    <div class="award reveal"><div class="award-icon">🏆</div><div><h3>Dean of the Deal — Best Negotiator</h3><p>Recognised for effective negotiation, stakeholder management and achieving balanced outcomes.</p></div></div>
+  </div>
+</div>
+</section>
+
+<section id="education">
+<div class="container">
+  <div class="section-head reveal"><div><div class="kicker">Education</div><h2>Academic background</h2></div></div>
+  <div class="education">
+    <div class="edu reveal"><strong>Bachelor of Psychology</strong><span>2019 – 2022</span></div>
+    <div class="edu reveal"><strong>Diploma in Civil Engineering</strong><span>2019 – 2021</span></div>
+  </div>
+</div>
+</section>
+</main>
+
+<footer id="contact">
+<div class="container footer-grid">
+  <div><div class="kicker" style="color:#9fb8df">Contact</div><h2 style="color:#fff;margin-top:8px">Let's connect.</h2><p>Unnati Jagtap · Administration & Operations</p></div>
+  <div class="contact"><a href="mailto:unnatijagtap21@gmail.com">unnatijagtap21@gmail.com</a><a href="tel:+919022465806">+91 9022465806</a><a href="https://www.linkedin.com/in/unnati-jagtap-a65b9b220/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+</div>
+</footer>
+
+<script>
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{if(entry.isIntersecting) entry.target.classList.add('show')});
+},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+
+const counters = document.querySelectorAll('.kpi-number');
+const counterObserver = new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    if(!entry.isIntersecting || entry.target.dataset.done) return;
+    entry.target.dataset.done='1';
+    const el=entry.target, target=Number(el.dataset.target), suffix=el.textContent.includes('%')?'%':(el.textContent.includes('+')?'+':'');
+    let start=0, duration=900, startTime=null;
+    function tick(t){
+      if(!startTime) startTime=t;
+      const p=Math.min((t-startTime)/duration,1);
+      const eased=1-Math.pow(1-p,3);
+      el.textContent=Math.round(target*eased)+suffix;
+      if(p<1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  });
+},{threshold:.5});
+counters.forEach(c=>counterObserver.observe(c));
+
+const links=[...document.querySelectorAll('.nav-links a')];
+const sections=[...document.querySelectorAll('main section[id]')];
+const navObserver=new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+entry.target.id));
+    }
+  });
+},{rootMargin:'-35% 0px -55% 0px'});
+sections.forEach(s=>navObserver.observe(s));
+</script>
+</body>
+</html>
